@@ -1,0 +1,71 @@
+网络协议
+1) DNS
+    1) Domain Name System
+    2) 域名系统: 域名-IP 域名服务器
+    3) DNS解析: 浏览器缓存(TTL) - 本机hosts - 本机缓存 - 本地域名服务器(递归查询) - 根域名服务器 - 顶级域名服务器 - 下级域名服务器(迭代查询)
+    4) DNS负载均衡: 轮询
+2) IP
+    1) Internet Protocol
+    2) 网络之间互连的协议: 无连接型
+    3) 分片 - 数据包 - 重组
+    4) IP地址
+3) TCP
+    1) Transmission Control Protocol
+    2) 传输控制协议: 面向连接
+    3) TCP连接建立(三次握手): SYN(syn=x) - SYN-ACK(syn=y,ack=x+1) - ACK(ack=y+1)
+    4) TCP连接终止(四次挥手): FIN - ACK - FIN - ACK
+    5) SYN攻击
+4) HTTP
+    1) 超文本传输协议: 无状态
+    2) HTTP请求
+    3) HTTP响应
+5) HTTPS
+
+服务器
+1) Tomcat
+2) Servlet容器
+
+开源框架
+1) Struts2
+2) Spring
+3) MyBatis
+4) Netty
+5) 框架源码
+
+缓存
+1) Memcached
+2) Redis
+
+消息
+1) ActiveMQ
+
+RPC
+1) Hessian
+2) Dubbo
+3) Thrift
+4) Protocol Buffer
+
+数据库
+1) MySQL
+
+JVM
+
+J2SE
+1) IO/NIO
+2) 集合
+3) 多线程
+4) 网络编程
+5) 高级特性
+6) 设计模式
+7) JDK源码
+
+J2EE
+1) JSP
+2) Servlet
+3) JMS
+
+高并发
+1)
+
+技术架构
+1) 秒杀
