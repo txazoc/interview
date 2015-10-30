@@ -11,15 +11,23 @@
     4) IP地址
 3) TCP
     1) Transmission Control Protocol
-    2) 传输控制协议: 面向连接
+    2) 传输控制协议: 面向连接 半连接
     3) TCP连接建立(三次握手): SYN(syn=x) - SYN-ACK(syn=y,ack=x+1) - ACK(ack=y+1)
     4) TCP连接终止(四次挥手): FIN - ACK - FIN - ACK
     5) SYN攻击
 4) HTTP
-    1) 超文本传输协议: 无状态
-    2) HTTP请求
-    3) HTTP响应
+    1) HyperText Transfer Protocol
+    2) 超文本传输协议: 无状态
+    3) URL:
+    4) HTTP请求: 请求行 － 通用信息头 － 请求头 － 实体头 － 报文主体
+    5) HTTP响应: 状态行 － 通用信息头 － 响应头 － 实体头 － 报文主体
+    6) HTTP状态码: 1xx 信息
+                  2xx 成功
+                  3xx 重定向
+                  4xx 客户端错误
+                  5xx 服务端错误
 5) HTTPS
+    1) 安全的HTTP
 
 服务器
 1) Tomcat
